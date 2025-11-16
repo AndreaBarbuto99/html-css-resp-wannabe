@@ -134,6 +134,8 @@ img {
         width: 100%;
     }
 
+    
+
 } 
 
 @media screen and (max-width:1200px) {
@@ -143,5 +145,23 @@ img {
     }
 
 
+}
+
+@media screen and (max-width:480px) {
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* .card {
+        width: 100%;
+    } */
 }
 
