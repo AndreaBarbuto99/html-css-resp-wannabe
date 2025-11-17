@@ -157,11 +157,21 @@ img {
 
     .container .col {
         width: 100%;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
 
-    /* .card {
-        width: 100%;
-    } */
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+        
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .text-center {
+        padding-top: 30px;
+    }
 }
 
